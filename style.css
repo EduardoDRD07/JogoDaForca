@@ -87,3 +87,75 @@ button:hover {
     top: 60%;
     transform: translate(-50%, 0);
 }
+
+@media screen and (max-width: 375px) {
+    .erradas {
+        position: absolute;
+        text-align: center;
+        top: 2%;
+        left: 50%;
+        transform: translate(-50%);
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+    }
+
+    button {
+        display: inline;
+        text-align: center;
+        align-items: center;
+        width: 10px;
+        height: 10px;
+        background-color: aliceblue;
+        border: none;
+        cursor: pointer;
+        border-radius: 2px;
+        font-weight: 400;
+        font-family: sans-serif;
+        padding-top: 1;
+        padding-bottom: 0px;
+        padding-left: 2px;
+        padding-right: 2px;
+        font-size: 5px;
+    }
+
+    .botoesPrimeiraLinha {
+        padding: 2px 3px;
+    }
+
+    .botoesSegundaLinha {
+        padding: 0px 17px;
+    }
+
+    .botoesTerceiraLinha {
+        padding: 5px 45px;
+    }
+
+    #dnv {
+        position: absolute;
+        width: 50px;
+        height: 25px;
+        padding-bottom: 0;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, 0);
+    }
+
+    .certas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: aliceblue;
+    }
+
+    .letrasCertas {
+        font-size: 50px;
+    }
+
+    img {
+        width: 150px;
+        height: 300px;
+    }
+
+}
