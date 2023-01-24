@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Da Forca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="forca">
+        <img id="forca" src="forca.png" alt="Forca" width="300px" height="600px">
+    </div>
+    <div class="botoes">
+        <div class="botoesPrimeiraLinha">
+            <button onclick="getValues('Q')" id="q" value="Q">Q</button>
+            <button onclick="getValues('W')" id="w" value="W">W</button>
+            <button onclick="getValues('E')" id="e" value="E">E</button>
+            <button onclick="getValues('R')" id="r" value="R">R</button>
+            <button onclick="getValues('T')" id="t" value="T">T</button>
+            <button onclick="getValues('Y')" id="y" value="Y">Y</button>
+            <button onclick="getValues('U')" id="u" value="U">U</button>
+            <button onclick="getValues('I')" id="i" value="I">I</button>
+            <button onclick="getValues('O')" id="o" value="O">O</button>
+            <button onclick="getValues('P')" id="p" value="P">P</button>
+        </div>
+        <div class="botoesSegundaLinha">
+            <button onclick="getValues('A')" id="a" value="A">A</button>
+            <button onclick="getValues('S')" id="s" value="S">S</button>
+            <button onclick="getValues('D')" id="d" value="D">D</button>
+            <button onclick="getValues('F')" id="f" value="F">F</button>
+            <button onclick="getValues('G')" id="g" value="G">G</button>
+            <button onclick="getValues('H')" id="h" value="H">H</button>
+            <button onclick="getValues('J')" id="j" value="J">J</button>
+            <button onclick="getValues('K')" id="k" value="K">K</button>
+            <button onclick="getValues('L')" id="l" value="L">L</button>
+        </div>
+        <div class="botoesTerceiraLinha">
+            <button onclick="getValues('Z')" id="z" value="Z">Z</button>
+            <button onclick="getValues('X')" id="x" value="X">X</button>
+            <button onclick="getValues('C')" id="c" value="C">C</button>
+            <button onclick="getValues('V')" id="v" value="V">V</button>
+            <button onclick="getValues('B')" id="b" value="B">B</button>
+            <button onclick="getValues('N')" id="n" value="N">N</button>
+            <button onclick="getValues('M')" id="m" value="M">M</button>
+        </div>
+    </div>
+    <button onclick="jogarNovamente()" id="dnv">Jogar Novamente</button>
+    <div class="erradas">
+        <div class="letrasErradas">
+            <h1>Letras Erradas</h1>
+        </div>
+    </div>
+    <div class="certas">
+        <div class="letrasCertas">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
